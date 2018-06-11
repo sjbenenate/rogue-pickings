@@ -1,0 +1,307 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	max-width: 90%;
+	margin: 0 auto;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+@media (min-width:940px) {
+	body {
+		max-width: 1200px;
+	}
+}
+
+@media (min-width:940px) and (max-width: 1199px) {
+	body {
+		max-width: 90%;
+	}
+}
+
+
+
+h1,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 1.875em;
+	text-align: center;
+	width: auto;
+	padding: 10px 0;
+}
+
+@media (min-width:940px) {
+	h1 {
+		text-align: left;
+		width: auto;
+		float: left;
+		padding: 15px 0;
+	}
+}
+
+
+@media (min-width:768px) {
+	h1 {
+		text-align: center;
+		width: auto;
+		padding: 15px 0;
+	}
+}
+
+h3 {
+	font-size: 1.125em;
+	text-align: center;
+	padding: 15px;
+}
+
+h4 {
+	font-size: 0.9em;
+}
+
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	color: #77a466;
+}
+
+@media (min-width:768px) {
+	.main-title h3 {
+		text-align: center;
+	}
+
+	h4 {
+		font-size: 0.8em;
+	}
+}
+
+@media (min-width:940px) {
+	.main-title h3 {
+		text-align: left;
+	}
+
+	h4 {
+		font-size: 0.75em;
+	}
+}
+
+p {
+	padding: 0px 30px;
+	line-height: 21px;
+	font-size: 0.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+@media (min-width:940px) {
+	header {
+		height: 110px;
+	}
+}
+
+header span {
+	color: #77a466;
+}
+
+header nav {
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+
+@media (min-width:940px) {
+	header nav {
+		width: auto;
+		float: right;
+		text-align: right;
+		padding: 45px 5px;
+	}
+}
+
+header nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.875em;
+	padding: 10px 10px;
+	color:#77a466;
+	display: block;
+}
+
+@media (min-width:940px), (min-width:768px){
+	header nav a {
+		padding: 0 10px;
+		display: inline;
+	}
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.main-title p {
+	padding: 0px;
+	line-height: 30px;
+	font-size: 1em;
+}
+
+@media all and (min-width:768px), (min-width:940px) {
+	.main-title p {
+		line-height: 25px;
+	}
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+}
+
+
+@media (min-width:768px) {
+	.section-one,
+	.section-two {
+		width: 49%;
+		height: auto;
+		float: left;
+		text-align: center;
+		border-top: 1px solid #eee;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		padding: 0 5px;
+	}
+
+	.section-three {
+		width: 100%;
+		height: auto;
+		float: left;
+		text-align: center;
+		border-top: 1px solid #eee;
+	}
+}
+
+
+@media (min-width:940px) {
+	.section-one,
+	.section-two,
+	.section-three {
+		padding:0;
+		width: 33%;
+		height: auto;
+		float: left;
+		text-align: left;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one,
+	.section-two {
+		border-right: 1px solid #eee;
+	}
+}
+
+
+
+
+.section-one h4 {
+	padding: 10px 0px;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 0px;
+}
+
+.section-two p,
+.section-three p {
+	padding: 0 0 10px 0;
+	line-height: 25px;
+}
+
+@media (min-width:940px) {
+	.section-two h4,
+	.section-three h4 {
+		padding: 10px 30px;
+	}
+
+	.section-two p,
+	.section-three p {
+		padding: 0 30px;
+		line-height: normal;
+	}
+}
+
+.menu {
+	list-style: none;
+	padding: 0px;
+}
+
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	line-height: 21px;
+	font-size: 1em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%;
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
